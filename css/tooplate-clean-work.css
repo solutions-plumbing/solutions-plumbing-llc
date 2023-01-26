@@ -144,6 +144,11 @@ strong {
   padding-bottom: 100px;
 }
 
+.section-padding .testimonial-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .section-bg {
   background-color: var(--section-bg-color);
 }
@@ -878,7 +883,7 @@ strong {
   BANNER        
 -----------------------------------------*/
 .banner-section {
-  background-image: url('../images/high-angle-woman-cleaning-floors.jpg');
+  background-image: url('../images/slideshow/residential-plumber-1.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -888,6 +893,16 @@ strong {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
+/*
+.banner-section.gallery {
+  background-image: url('../images/slideshow/residential-plumber-1.jpeg');
+}
+
+.banner-section.contact {
+  background-image: url('../images/slideshow/residential-plumber-1.jpeg');
+}
+*/
 
 .banner-section .breadcrumb {
   margin-bottom: 0;
@@ -968,6 +983,17 @@ strong {
 .gallery-image {
   border-radius: var(--border-radius-medium);
 }
+
+.image-popup, .gallery-image {
+  width: 100%;
+}
+
+/* @media screen and (max-width: 672px) {
+  .image-popup, .gallery-image {
+    margin-bottom: 8px;
+  }
+}  */
+
 
 .team-info {
   background: var(--white-color);

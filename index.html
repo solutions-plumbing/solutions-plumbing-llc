@@ -33,15 +33,7 @@
 
         <link href="css/tooplate-clean-work.css" rel="stylesheet">
 
-<!--
 
-Tooplate 2132 Clean Work
-
-https://www.tooplate.com/view/2132-clean-work
-
-Free Bootstrap 5 HTML Template
-
--->
     </head>
     
     <body>
@@ -62,7 +54,9 @@ Free Bootstrap 5 HTML Template
                         </p>
 
                         <p class="site-header-icon-wrap text-white d-flex mb-0 ms-auto">
-                            <i class="site-header-icon bi-whatsapp me-2"></i>
+                            <a href="tel:2535794284" class="text-white" title="Call to schedule an appointment">
+<i class="site-header-icon bi-whatsapp me-2"></i>
+</a>
 
                             <a href="tel:2535794284" class="text-white" title="Call to schedule an appointment">
                                 (253) 579-4284
@@ -485,7 +479,7 @@ We take great pride in our experience, expertise, quality, and customer service 
                             </div>
                         </div>
 
-                                                <div class="col-lg-6 col-12">
+                        <div class="col-lg-6 col-12">
                             <div class="services-thumb">
                                 <div class="row">
                                     <div class="col-lg-5 col-md-5 col-12">
@@ -549,7 +543,7 @@ We take great pride in our experience, expertise, quality, and customer service 
                             </div>
                         </div>
 
-                                                <div class="col-lg-6 col-12">
+                        <div class="col-lg-6 col-12">
                             <div class="services-thumb">
                                 <div class="row">
                                     <div class="col-lg-5 col-md-5 col-12">
@@ -613,6 +607,17 @@ We take great pride in our experience, expertise, quality, and customer service 
                             </div>
                         </div>
 
+                        <div class="col-lg-12 col-12">
+                            <!-- CTA -->
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-7 col-12 text-center mx-auto">
+                                    <a class="custom-btn btn button button--blue" title="Contact Us" href="contact.html">Need a hand? Call us now!</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -620,11 +625,43 @@ We take great pride in our experience, expertise, quality, and customer service 
 
             <section class="section-padding pt-0" id="gallery-section">
                 <div class="container">
+ 
+                    
+                    <br>
+
                     <div class="row">
 
-                        <div class="col-lg-12 col-12">
+                        <!--<div class="col-lg-12 col-12">
                             <h2 class="mb-4">Gallery</h2>
+                        </div>-->
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <a href="images/gallery/solutions-plumbing-llc-gallery-14.jpg" class="image-popup">
+                                <img src="images/gallery/solutions-plumbing-llc-gallery-14.jpg" class="gallery-image img-fluid">
+                            </a>
                         </div>
+
+                        <div class="col-lg-4 col-md-4 col-12 my-4 my-lg-0 my-md-0">
+                            <a href="images/disinfecting-home.jpg" class="image-popup">
+                                <img src="images/disinfecting-home.jpg" class="gallery-image img-fluid">
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <a href="images/essential-goods-during-epidemic-prevention-protection.jpg" class="image-popup">
+                                <img src="images/essential-goods-during-epidemic-prevention-protection.jpg" class="gallery-image img-fluid">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+
+                        <!--<div class="col-lg-12 col-12">
+                            <h2 class="mb-4">Gallery</h2>
+                        </div>-->
 
                         <div class="col-lg-4 col-md-4 col-12">
                             <a href="images/coronavirus-pandemic-disinfector-protective-suit-mask-sprays-disinfectants-house-office.jpg" class="image-popup">
@@ -645,6 +682,17 @@ We take great pride in our experience, expertise, quality, and customer service 
                         </div>
 
                     </div>
+
+
+                    <br>
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-7 col-12 text-center mx-auto">
+                            <a class="custom-btn btn button button--blue" title="View full gallery" href="gallery.html">View full gallery</a>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
@@ -653,211 +701,180 @@ We take great pride in our experience, expertise, quality, and customer service 
 
 
             <style>
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-html, body {
-  height: 100%;
-}
-.testimonials-section {
-  background: transparent;
-  height: 375px;
-  position: relative;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-.slider__nav {
-  width: 12px;
-  height: 12px;
-  margin: 80px 12px;
-  border-radius: 0%;
-  z-index: 10;
-  outline: 6px solid #fff;
-  outline-offset: -6px;
-  box-shadow: 0 0 0 0 #fff, 0 0 0 0 rgba(51, 51, 51, 0);
-  cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.slider__nav:checked {
-  -webkit-animation: check 0.4s linear forwards;
-  animation: check 0.4s linear forwards;
-}
-.slider__nav:checked:nth-of-type(1) ~ .slider__inner {
-  left: 0%;
-}
-.slider__nav:checked:nth-of-type(2) ~ .slider__inner {
-  left: -100%;
-}
-.slider__nav:checked:nth-of-type(3) ~ .slider__inner {
-  left: -200%;
-}
-.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
-  left: -300%;
-}
-.slider__nav:checked:nth-of-type(5) ~ .slider__inner {
-  left: -400%;
-}
-.slider__inner {
-  position: absolute;
-  top: 80px;
-  left: 0;
-  width: 500%;
-  height: auto;
-  -webkit-transition: left 0.4s;
-  transition: left 0.4s;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-}
-.slider__contents {
-  height: 100%;
-  text-align: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-.slider__caption {
-  font-size: 20px;
-  color: #fff;
-  outline: black;
-  opacity: .6;
-  font-family: 'Roboto';
-  font-weight: bold;
-}
-.slider__txt {
-  font-size: 21px;
-  font-weight: bold;
-  font-family: 'Roboto';
-  line-height: 1.6;
-  color: #fff;
-  margin-top: -10px;
-  margin-bottom: 20px;
-  max-width: 750px;
-}
-quote {
-  font-family: 'Arial';
-  font-weight: bold;
-  font-size: 100px;
-  color: #fff;
-  margin-bottom: 0;
-}
+                *, *:before, *:after {
+                box-sizing: border-box;
+                }
+                html, body {
+                height: 100%;
+                }
+                .testimonials-section {
+                background: transparent;
+                height: 445px;
+                position: relative;
+                overflow: hidden;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-flex-flow: row nowrap;
+                -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap;
+                -webkit-box-align: end;
+                -webkit-align-items: flex-end;
+                -ms-flex-align: end;
+                align-items: flex-end;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                }
+                .slider__nav {
+                width: 12px;
+                height: 12px;
+                margin: 75px 12px;
+                border-radius: 0%;
+                z-index: 10;
+                outline: 6px solid #fff;
+                outline-offset: -6px;
+                box-shadow: 0 0 0 0 #fff, 0 0 0 0 rgba(51, 51, 51, 0);
+                cursor: pointer;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                }
+                .slider__nav:checked {
+                -webkit-animation: check 0.4s linear forwards;
+                animation: check 0.4s linear forwards;
+                }
+                .slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+                left: 0%;
+                }
+                .slider__nav:checked:nth-of-type(2) ~ .slider__inner {
+                left: -100%;
+                }
+                .slider__nav:checked:nth-of-type(3) ~ .slider__inner {
+                left: -200%;
+                }
+                .slider__nav:checked:nth-of-type(4) ~ .slider__inner {
+                left: -300%;
+                }
+                .slider__nav:checked:nth-of-type(5) ~ .slider__inner {
+                left: -400%;
+                }
+                .slider__inner {
+                    position: absolute;
+                    top: 80px;
+                    left: 0;
+                    width: 500%;
+                    height: auto;
+                    -webkit-transition: left 0.4s;
+                    transition: left 0.4s;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-flex-flow: row nowrap;
+                    -ms-flex-flow: row nowrap;
+                    flex-flow: row nowrap;
+                }
+                .slider__contents {
+                    height: 100%;
+                    text-align: center;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-flex: 1;
+                    -webkit-flex: 1;
+                    -ms-flex: 1;
+                    flex: 1;
+                    -webkit-flex-flow: column nowrap;
+                    -ms-flex-flow: column nowrap;
+                    flex-flow: column nowrap;
+                    -webkit-box-align: center;
+                    -webkit-align-items: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    -webkit-justify-content: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                }
+                .slider__caption {
+                    font-size: 20px;
+                    color: #fff;
+                    outline: black;
+                    opacity: .6;
+                    font-family: 'Roboto';
+                    font-weight: bold;
+                }
+                .slider__txt {
+                    font-size: 21px;
+                    font-weight: bold;
+                    font-family: 'Roboto';
+                    line-height: 1.6;
+                    color: #fff;
+                    margin-top: -10px;
+                    margin-bottom: 20px;
+                    max-width: 750px;
+                }
+                quote {
+                    font-family: 'Arial';
+                    font-weight: bold;
+                    font-size: 100px;
+                    color: #fff;
+                    margin-bottom: 0;
+                    line-height: 60px;
+                }
 
-@-webkit-keyframes check {
-  50% {
-    outline-color: #333;
-    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
-  }
-  100% {
-    outline-color: #333;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-  }
-}
+                @-webkit-keyframes check {
+                50% {
+                    outline-color: #333;
+                    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+                }
+                100% {
+                    outline-color: #333;
+                    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+                }
+                }
 
-@keyframes check {
-  50% {
-    outline-color: #333;
-    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
-  }
-  100% {
-    outline-color: #333;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-  }
-}
+                @keyframes check {
+                50% {
+                    outline-color: #333;
+                    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+                }
+                100% {
+                    outline-color: #333;
+                    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+                }
+                }
+
+                @media screen and (max-width: 991px) {
+                    .slider__contents {
+                        padding: 0 12px 0 12px;
+                    }
+
+                    .slider__nav {
+                        margin: 52px 12px;
+                    }
+                }
+
+                @media screen and (max-width: 575px) {
+                    /*
+                    .slider__contents {
+                        padding: 0 12px 0 12px;
+                    }
+                    */      
+
+                    .slider__nav {
+                        margin: -1px 12px;
+                    }
+                }
 
 
             </style>
-
-<!--
-            <section class="section-padding pt-0">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-12 col-12">
-                            <h2 class="mb-4" style="text-align: left">Testimonials</h2>
-                        </div>
-
-
-                            <div class="testimonials-section">
-                                <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
-                                <input type="radio" name="slider" title="slide2" class="slider__nav"/>
-                                <input type="radio" name="slider" title="slide3" class="slider__nav"/>
-                                <input type="radio" name="slider" title="slide4" class="slider__nav"/>
-                                <input type="radio" name="slider" title="slide5" class="slider__nav"/>
-                                <div class="slider__inner">
-                                    <div class="slider__contents">
-                                        <quote>&rdquo;</quote>
-                                        <p class="slider__txt">Solutions did a fabulous job repiping my 1920's craftsman style home. They were incredibly professional, thorough, and, true to their name, came up with some excellent solutions to old house problems. I cannot recommend Sabedin and his team enough and they will always be my go-to for any plumbing need.</p>
-                                        <h2 class="slider__caption">Neal J. | Tacoma, WA</h2>
-                                        </div>
-                                        <div class="slider__contents">
-                                        <quote>&rdquo;</quote>
-                                        <p class="slider__txt">Sabedin was more than responsive and did a great job replacing two undersized water tanks at a mulit-family rental. He does great work at a more than fair price. I could not recommend him more strongly.</p>
-                                        <h2 class="slider__caption">Victor M. | Bonney Lake, WA</h2>
-                                        </div>
-                                        <div class="slider__contents">
-                                        <quote>&rdquo;</quote>
-                                        <p class="slider__txt">Superb communication! Very professional plumber. I recommend the company.</p>
-                                        <h2 class="slider__caption">Julius E. | Puyallup, WA</h2>
-                                        </div>
-                                        <div class="slider__contents">
-                                        <quote>&rdquo;</quote>
-                                        <p class="slider__txt">Great costumer service and professional job done </p>
-                                        <h2 class="slider__caption">Carl J. | Spanaway, WA</h2>
-                                        </div>
-                                        <div class="slider__contents">
-                                        <quote>&rdquo;</quote>
-                                        <p class="slider__txt">I hired Sab to replumb my entire home (kitchen + 2 bathrooms) and he did an amazing job, taking the time to answer my questions and walk me through each step of the process. Would highly recommend!</p>
-                                        <h2 class="slider__caption">Aron P. | Tacoma, WA</h2>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                    </div>
-                </div>
-            </section>  
-
-            -->
-
-
 
 
             <section class="testimonial-section section-padding section-bg">
@@ -879,163 +896,32 @@ quote {
                                 <input type="radio" name="slider" title="slide5" class="slider__nav"/>
                                 <div class="slider__inner">
                                     <div class="slider__contents">
-                                        <!--<quote>&rdquo;</quote>-->
+                                        <quote>&rdquo;</quote>
                                         <p class="slider__txt">Solutions did a fabulous job repiping my 1920's craftsman style home. They were incredibly professional, thorough, and, true to their name, came up with some excellent solutions to old house problems. I cannot recommend Sabedin and his team enough and they will always be my go-to for any plumbing need.</p>
                                         <h2 class="slider__caption">Neal J. | Tacoma, WA</h2>
                                         </div>
                                         <div class="slider__contents">
-                                        <!--<quote>&rdquo;</quote>-->
-                                        <p class="slider__txt">Sabedin was more than responsive and did a great job replacing two undersized water tanks at a mulit-family rental. He does great work at a more than fair price. I could not recommend him more strongly.</p>
+                                        <quote>&rdquo;</quote>
+                                        <p class="slider__txt">Sabedin was very responsive and did a great job replacing two undersized water tanks at a mulit-family rental. He does great work at a more than fair price. I could not recommend him more strongly.</p>
                                         <h2 class="slider__caption">Victor M. | Bonney Lake, WA</h2>
                                         </div>
                                         <div class="slider__contents">
-                                        <!--<quote>&rdquo;</quote>-->
+                                        <quote>&rdquo;</quote>
                                         <p class="slider__txt">Superb communication! Very professional plumber. I recommend the company.</p>
                                         <h2 class="slider__caption">Julius E. | Puyallup, WA</h2>
                                         </div>
                                         <div class="slider__contents">
-                                        <!--<quote>&rdquo;</quote>-->
+                                        <quote>&rdquo;</quote>
                                         <p class="slider__txt">Great costumer service and professional job done </p>
                                         <h2 class="slider__caption">Carl J. | Spanaway, WA</h2>
                                         </div>
                                         <div class="slider__contents">
-                                        <!--<quote>&rdquo;</quote>-->
-                                        <p class="slider__txt">I hired Sab to replumb my entire home (kitchen + 2 bathrooms) and he did an amazing job, taking the time to answer my questions and walk me through each step of the process. Would highly recommend!</p>
+                                        <quote>&rdquo;</quote>
+                                        <p class="slider__txt">I hired Sab to replumb my entire home (kitchen + 2 bathrooms) and he did an amazing job, taking the time to answer my questions and walk me through each step of the process. I would highly recommend him for future jobs.</p>
                                         <h2 class="slider__caption">Aron P. | Tacoma, WA</h2>
                                     </div>
                                 </div>
                             </div>
-
-                        <!-- 
-                        <div class="col-lg-4 col-12">
-                            <div class="featured-block">
-                                <div class="d-flex align-items-center mb-3">
-                                    <img src="images/avatar/happy-customer-01.jpg" class="avatar-image img-fluid">
-
-                                    <div class="ms-3">
-                                        <h4 class="mb-0">Neal J.</h4>
-
-                                        <div class="reviews-icons mb-1">
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p class="mb-0">
-                                    Solutions did a fabulous job repiping my small 1920 craftsman style home. They were incredibly professional, thorough, and, true to their name, came up with some excellent solutions to old house problems. I cannot recommend Sabedin and his team high enough and they will always be my go-to for any plumbing need. I even hired them back to put in a new tub and redo a bathroom.
-                                </p>
-                            </div>
-
-                            <div class="featured-block mb-lg-0">
-                                <div class="d-flex align-items-center mb-3">
-                                    <img src="images/avatar/happy-customer-02.jpg" class="avatar-image img-fluid">
-
-                                    <div class="ms-3">
-                                        <h4 class="mb-0">Nana</h4>
-
-                                        <div class="reviews-icons mb-1">
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="featured-block">
-                                <div class="d-flex align-items-center mb-3">
-                                    <img src="images/avatar/happy-customer-03.jpg" class="avatar-image img-fluid">
-
-                                    <div class="ms-3">
-                                        <h4 class="mb-0">Elon</h4>
-
-                                        <div class="reviews-icons mb-1">
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            </div>
-
-                            <div class="featured-block mb-lg-0">
-                                <div class="d-flex align-items-center mb-3">
-                                    <img src="images/avatar/happy-customer-04.jpg" class="avatar-image img-fluid">
-
-                                    <div class="ms-3">
-                                        <h4 class="mb-0">Josh</h4>
-
-                                        <div class="reviews-icons mb-1">
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star"></i>
-                                            <i class="bi-star"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="featured-block">
-                                <div class="d-flex align-items-center mb-3">
-                                    <img src="images/avatar/happy-customer-05.jpg" class="avatar-image img-fluid">
-
-                                    <div class="ms-3">
-                                        <h4 class="mb-0">Katie</h4>
-
-                                        <div class="reviews-icons mb-1">
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            </div>
-
-                            <div class="featured-block mb-lg-0">
-                                <div class="d-flex align-items-center mb-3">
-                                    <img src="images/avatar/happy-customer-06.jpg" class="avatar-image img-fluid">
-
-                                    <div class="ms-3">
-                                        <h4 class="mb-0">Shai</h4>
-
-                                        <div class="reviews-icons mb-1">
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star-fill"></i>
-                                            <i class="bi-star"></i>
-                                            <i class="bi-star"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-
-                        -->
 
                     </div>
                 </div>
@@ -1089,11 +975,11 @@ quote {
                         <ul class="footer-menu d-flex flex-wrap ms-5">
                             <li class="footer-menu-item"><a href="#intro-section" class="footer-menu-link">About</a></li>
 
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Blog</a></li>
+                            <li class="footer-menu-item"><a href="gallery.html" class="footer-menu-link">Gallery</a></li>
 
                             <li class="footer-menu-item"><a href="#" class="footer-menu-link">Reviews</a></li>
 
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                            <li class="footer-menu-item"><a href="contact.html" class="footer-menu-link">Contact</a></li>
                         </ul>
                     </div>
 
