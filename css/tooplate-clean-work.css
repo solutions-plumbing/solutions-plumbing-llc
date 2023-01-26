@@ -1111,6 +1111,11 @@ strong {
   position: relative;
 }
 
+.testimonial-section.google-reviews {
+  background:#ffffff;
+  background-image: none;
+}
+
 .testimonial-section .featured-block {
   background-color: var(--primary-color);
   border-radius: var(--border-radius-medium);
