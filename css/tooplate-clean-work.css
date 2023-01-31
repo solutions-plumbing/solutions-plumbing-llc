@@ -630,6 +630,12 @@ strong {
   color: var(--white-color);
 }
 
+@media only screen and (max-width: 525px) {
+  .navbar-expand-lg .container {
+    margin-top: 20px;
+  }
+}
+
 
 /*---------------------------------------
   NAVIGATION              
