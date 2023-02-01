@@ -204,19 +204,23 @@
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <input type="text" name="name" id="volunteer-name" class="form-control" placeholder="Name" required>
                                         </div>
-
                                         <div class="col-lg-6 col-md-6 col-12">
+                                            <input type="tel" name="phone" id="volunteer-phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="form-control" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-12">
                                             <input type="email" name="email" id="volunteer-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email" required>
                                         </div>
                                     </div>
 
                                     <select class="form-select form-control" name="job-type" id="job-salary" aria-label="Default select example">
                                         <option selected>Service Type</option>
-                                        <option value="1">Residential</option>
-                                        <option value="1">Commercial</option>
-                                        <option value="2">Remodel</option>
-                                        <option value="2">Custom plumbing fixtures</option>
-                                        <option value="2">General service & maintenance</option>
+                                        <option value="Residential">Residential</option>
+                                        <option value="Commercial">Commercial</option>
+                                        <option value="Remodel">Remodel</option>
+                                        <option value="Custom plumbing fixtures">Custom plumbing fixtures</option>
+                                        <option value="General service & maintenance">General service & maintenance</option>
                                     </select>
 
                                     <textarea name="message" rows="3" class="form-control" id="volunteer-message" placeholder="Tell us about your project"></textarea>
